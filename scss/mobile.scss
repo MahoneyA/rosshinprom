@@ -74,8 +74,14 @@
     }
   }
   .wrapper-service{
-    .desc-text{
-      width: 100%;
+    .anons-tovara {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .desc-text {
+        text-align: center;
+        width: 100%;
+      }
     }
     .service-pic {
       flex-direction: column;
@@ -85,6 +91,9 @@
     }
   }
   .wrapper-projects{
+    .title-text{
+      font-size: 3vh;
+    }
     nav.projects{
       ul.projects-nav {
         flex-direction: column;

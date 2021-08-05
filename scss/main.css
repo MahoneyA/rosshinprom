@@ -1048,6 +1048,10 @@ header {
   background-color: #030000;
   width: 100%;
 }
+header a {
+  text-decoration: none;
+  color: #e7f3fb;
+}
 header .logo {
   margin-left: 15%;
   font-size: 3.5rem;
@@ -1128,6 +1132,23 @@ header .social-icons .fa-facebook-f {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.wrapper-service .anons-tovara {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper-service .anons-tovara .desc-text {
+  text-align: left;
+  margin-bottom: 15vh;
+}
+.wrapper-service .anons-tovara .desc-text p {
+  padding-top: 1.8vh;
+}
+.wrapper-service .anons-tovara .desc-text h1 {
+  font-size: 4vh;
+}
+.wrapper-service .anons-tovara .desc-text h2 {
+  font-size: 4vh;
 }
 .wrapper-service img {
   width: 280px;
@@ -1348,16 +1369,15 @@ header .social-icons .fa-facebook-f {
 
 .wrapper-contact {
   display: flex;
-  justify-content: center;
   background-color: #e6ecee;
+  justify-content: center;
 }
 .wrapper-contact .contact_1 {
-  align-items: center;
   margin: 10vh 0;
 }
 .wrapper-contact .contact_1 .desc-text {
+  text-align: left;
   background-color: #e6ecee;
-  text-align: center;
   font-size: 2.8vh;
 }
 
@@ -1449,7 +1469,13 @@ header .social-icons .fa-facebook-f {
     font-size: 1rem;
   }
 
-  .wrapper-service .desc-text {
+  .wrapper-service .anons-tovara {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper-service .anons-tovara .desc-text {
+    text-align: center;
     width: 100%;
   }
   .wrapper-service .service-pic {
@@ -1459,6 +1485,9 @@ header .social-icons .fa-facebook-f {
     margin: 1rem 0;
   }
 
+  .wrapper-projects .title-text {
+    font-size: 3vh;
+  }
   .wrapper-projects nav.projects ul.projects-nav {
     flex-direction: column;
   }
