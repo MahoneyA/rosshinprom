@@ -17,7 +17,7 @@ $secondary-color: #2772a4;
     height: 9px;
     margin: 0 0 7px 0;
     border-radius: 3px;
-    background: $primary-color;
+    background: #D52B1E;
     @include easeOut;
 
   }
@@ -30,7 +30,7 @@ $secondary-color: #2772a4;
       //rotate
       &:nth-child(1){
         @include easeOut;
-        background: $secondary-color;
+        background: #D52B1E;
       }
       //hide
       &:nth-child(2){
@@ -74,7 +74,7 @@ $secondary-color: #2772a4;
   &-nav{
     margin: 0;
     padding: 0;
-    background: rgba(darken(#151414, 8), 0.7);
+    background: rgba(darken(#f1eeee, 8), 0.7);
     list-style: none;
     transform: translate3d(-50%,0,0);
     @include easeOut;
@@ -104,12 +104,12 @@ $secondary-color: #2772a4;
     text-transform: uppercase;
     padding: 1rem 1rem;
     font-weight: 600;
-    color: $primary-color;
+    color: #0039A6;
     text-decoration: none;
 
     &:hover{
       @include easeOut;
-      color: $secondary-color;
+      color: #D52B1E;
     }
   }
 }

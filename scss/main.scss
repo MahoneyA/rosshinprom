@@ -41,11 +41,15 @@ header{
   align-items: center;
   display: inline-flex;
   height: 6.875rem;
-  background-color: #030000;
+  background-color: #FFFFFF;
   width: 100%;
   a{
     text-decoration: none;
-    color: #e7f3fb;
+    color: #0039A6;
+    &:hover {
+      color: #D52B1E;
+      @include easeOut;
+    }
   }
   .logo{
     margin-left: 15%;
@@ -53,7 +57,7 @@ header{
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: $primary-color;
+    color: #0039A6;
   }
   .logo-pic{
     position: absolute;
@@ -64,7 +68,11 @@ header{
     margin-left: 0.9375rem;
   }
   i{
-    color: $primary-color;
+    color: #0039A6;
+    &:hover {
+      color: #D52B1E;
+      @include easeOut;
+    }
   }
   .contact{
     position: absolute;
@@ -81,7 +89,7 @@ header{
      i {
        font-size: 2.1875rem;
        &:hover {
-         color: $secondary-color;
+         color: #D52B1E;
          @include easeOut;
        }
      }
@@ -332,7 +340,7 @@ header{
   border-right-style: none;
   border-left-style: none;
   justify-content: center;
-  background: rgba(darken(#262323, 8), 0.9);
+  background: #0039A6;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
